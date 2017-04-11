@@ -1,6 +1,15 @@
 h1{
   font-family: serif;
   color:red;
-  background-color: purple;
+
   text-align: center;
 }
+ body{
+   background-color: blue;
+
+ }
+
+ p{
+   font-family: fantasy;
+   color: yellow;
+ }

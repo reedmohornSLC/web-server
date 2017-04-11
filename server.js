@@ -15,6 +15,7 @@ app.get('/about',middleware.requireAuthentication, function(req,res){
 //this will be default root if no root / is defined, all files in public can now be seen
 app.use(express.static(__dirname+ '/public'));
 //using variable to go to this port
+//process.env.PORT is for heroku not local 
 var meeganport = process.env.PORT || 3500;
 
 app.listen(meeganport,function(){
